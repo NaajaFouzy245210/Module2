@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="testid" class="testclass" style="color: black;">intro to dev tool</h1>
+    
+    <script>
+        console.log("testing control devtool");
+        console.log("error log");
+        console.log("warn login");
+
+        console.table([{"name":"John doe","age":"23"},
+        {"name":"John doe","age":"23"}])
+
+        console.group('groupInfo');
+            console.log('akshaya');
+            console.log('narsimha');
+            console.log('meera');
+            console.log('joshua');
+        console.groupEnd('groupInfo');
+
+        console.log(document);
+        console.info(document.URL);
+        console.dir(document);
+
+        localStorage.setItem("topic",'dev tool after lunch')
+        //document.cookie='url=https://secureurl.com';
+        document.cookie="url=hello";
+        document.cookie="url1=www.fb.com";
+            
+
+
+    </script>
+</body>
+</html>
